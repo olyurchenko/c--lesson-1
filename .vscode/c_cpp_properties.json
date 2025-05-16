@@ -1,0 +1,19 @@
+{
+  "configurations": [
+    {
+      "name": "GCC",
+      "compilerPath": "/opt/homebrew/opt/gcc/bin/g++-14",
+      "cppStandard": "c++20",
+      "intelliSenseMode": "macos-gcc-arm64",
+      "includePath": ["${workspaceFolder}/**"]
+    },
+    {
+      "name": "Clang",
+      "compilerPath": "/opt/homebrew/opt/llvm/bin/clang++",
+      "cppStandard": "c++20",
+      "intelliSenseMode": "macos-clang-arm64",
+      "includePath": ["${workspaceFolder}/**"]
+    }
+  ],
+  "version": 4
+}
