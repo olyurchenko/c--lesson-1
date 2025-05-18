@@ -11,7 +11,7 @@
         "-g",
         "${workspaceFolder}/*.cpp",
         "-o",
-        "${workspaceFolder}/main_gcc"
+        "${workspaceFolder}/main"
       ],
       "group": "build",
       "problemMatcher": ["$gcc"]
@@ -26,7 +26,7 @@
         "-g",
         "${workspaceFolder}/*.cpp",
         "-o",
-        "${workspaceFolder}/main_clang"
+        "${workspaceFolder}/main"
       ],
       "group": "build",
       "problemMatcher": ["$gcc"]
@@ -34,14 +34,14 @@
     {
       "label": "run gcc binary",
       "type": "shell",
-      "command": "${workspaceFolder}/main_gcc",
+      "command": "${workspaceFolder}/main",
       "group": "test",
       "problemMatcher": []
     },
     {
       "label": "run clang binary",
       "type": "shell",
-      "command": "${workspaceFolder}/main_clang",
+      "command": "${workspaceFolder}/main",
       "group": "test",
       "problemMatcher": []
     },
